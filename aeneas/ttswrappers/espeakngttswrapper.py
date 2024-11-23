@@ -183,6 +183,9 @@ class ESPEAKNGTTSWrapper(BaseTTSWrapper):
     JBO = Language.JBO
     """ Lojban (not tested) """
 
+    JPN = Language.JPN
+    """ Japanese """
+
     KAL = Language.KAL
     """ Greenlandic (not tested) """
 
@@ -667,6 +670,7 @@ class ESPEAKNGTTSWrapper(BaseTTSWrapper):
         ISL: u"Icelandic",
         ITA: u"Italian",
         JBO: u"Lojban (not tested)",
+        JPN: u"Japanese",
         KAL: u"Greenlandic (not tested)",
         KAN: u"Kannada (not tested)",
         KAT: u"Georgian (not tested)",
@@ -948,6 +952,7 @@ class ESPEAKNGTTSWrapper(BaseTTSWrapper):
         ISL: "is",
         ITA: "it",
         JBO: "jbo",
+        JPN: "ja",
         KAL: "kl",
         KAN: "kn",
         KAT: "ka",
